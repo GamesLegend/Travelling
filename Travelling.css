@@ -1,0 +1,349 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+.hero-section{
+  background-image:url(bailey-zindel-NRQV-hBF10M-unsplash\ \(2\).jpg);
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+input:focus, textarea {
+  outline: none ! important; 
+} 
+
+/* NAVBAR */
+
+.navbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  padding:20px;
+}
+
+ul{
+  list-style:none;
+  display:flex;
+  gap:40px;
+}
+
+.navbar-link{
+  text-decoration:none;
+  color:#4895ef;
+  font-weight:600;
+}
+
+h2{
+  color:#0096c7;
+  font-size:30px;
+}
+
+.navbar-icon{
+  width:20px;
+}
+
+.pricing-container{
+  display:flex;
+  gap:5px;
+  align-items:center;
+}
+
+.currency-container{
+  display:flex;
+  align-items:center;
+}
+
+/* INTRODUCTION */
+
+.introduction{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  height:60vh;
+}
+
+.introduction-header{
+  color:#0096c7;
+  font-size:60px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  gap:5px;
+}
+
+.world{
+  color:#da1e37;
+}
+
+.input{
+  margin-top:80px;
+  display:flex;
+  align-items:center;
+}
+
+input{
+  padding:8px 200px;
+  border:solid 2px #0077b6;
+}
+
+input::placeholder{
+  text-align:right;
+  font-family: 'Josefin Sans';
+  font-size:16px;
+  color:#4895ef;
+  font-weight:bold;
+}
+
+.search-btn{
+  background-color:#0077b6;
+  color:#fff;
+  padding:7px;
+  display: flex;
+  gap:5px;
+}
+
+.search-btn-icon{
+  width:20px;
+}
+
+/* FIRST DESTINATION */
+
+.first-destination{
+  position:relative;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(engjell-gjepali-M0OIyN5u8ZM-unsplash.jpg);
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+.first-description-container{
+  position:relative;
+  background-color:#2b2d428f;
+  color:#e5e5e5;
+  line-height:2;
+  margin-right:30vh;
+  padding:45px 10px 45px 30px;
+}
+
+.description-container > p{
+  padding-top:15px;
+}
+
+.quote{
+  transform:rotate(180deg);
+  position:absolute;
+  top:10px;
+  left:10px;
+}
+
+.second-quote{
+  position:absolute;
+  bottom:5px;
+  right:10px;
+}
+
+.italy-flag{
+  position:absolute;
+  top:-50px;
+  left:170px;
+  width:90px;
+}
+
+/* SECOND DESTINATION */
+
+.second-destination{
+  position:relative;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.600)50%,rgba(0, 0, 0, 0.600)50%), url(pexels-jonathan-goerke-772472.jpg);
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.second-description-container{
+  position:relative;
+  background-color:#2b2d428f;
+  color:#e5e5e5;
+  line-height:2;
+  margin-left:30vh;
+  padding:45px 10px 45px 30px;
+}
+
+.germany-flag{
+  position:absolute;
+  top:-50px;
+  left:180px;
+  width:90px;
+}
+
+/* THIRD DESTINATION */
+
+.third-destination{
+  position:relative;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pexels-sasha-prasastika-2695391.jpg);
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+.third-destination-container{
+  position:relative;
+  background-color:#2b2d428f;
+  color:#e5e5e5;
+  line-height:2;
+  margin-right:30vh;
+  padding:45px 10px 45px 30px;
+}
+
+.canada-flag{
+  position:absolute;
+  top:-50px;
+  left:170px;
+  width:90px;
+}
+
+/* MORE COUNTRIES */
+
+.more-countries{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.400)50%,rgba(0,0,0,0.400)50%), url(pexels-roberto-nickson-2559941\ \(1\).jpg);
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  padding-top:130px;
+}
+
+.countries-container{
+  position:relative;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding-bottom:100px;
+}
+
+.countries-container:last-child{
+  padding-bottom:0;
+}
+
+.countries-container > *{
+  margin-right:40px;
+}
+
+.img-size{
+  width:200px;
+}
+
+.country-flag{
+  position:absolute;
+  top:-80px;
+  margin-left:35px;
+}
+
+/* LOGO CONTAINER */
+
+.logo-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+}
+
+.logo{
+  width:150px;
+  filter: grayscale(100%);
+}
+
+/* USERS */
+
+.users{
+  background-image:linear-gradient(to top, rgba(0, 0, 0, 0.400)50%,rgba(0,0,0,0.400)50%), url(alessio-soggetti-PdGBci-4jR8-unsplash.jpg);
+  height:80vh;
+  background-position: center;
+  background-size: cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:40px;
+}
+
+.user-container{
+  position:relative;
+  background-color:#2b2d4283;
+  color:#e5e5e5;
+  padding:30px 10px 30px 10px;
+  line-height:1.5;
+}
+
+.user-container > p{
+  padding-top:20px;
+}
+
+.user-img-container{
+  text-align:center;
+}
+
+.user-img-container > img{
+  width:100px;
+  border-radius:50px;
+}
+
+/* FOOTER */
+
+.footer{
+  padding:25px 25px 0 25px;
+  display:flex;
+  gap:60px;
+  justify-content:center;
+  line-height:1.4;
+  background-color: #24262b;
+  color:#e5e5e5;
+}
+
+.footer-section > a{
+  color:#e5e5e5;
+  font-weight:normal;
+  text-decoration:none;
+  display:block;
+}
+
+.first-footer-section{
+  align-self:flex-end;
+}
+
+.footer > h3{
+  color:#e5e5e5;
+  font-size:25px;
+  margin-left:10px;
+}
+
+.copyright{
+  align-self: flex-end;
+}
+
+.icon{
+  color:#e5e5e5;
+  font-size:20px;
+}
+
+.icon:hover{
+  color:red;
+}
+
+a:hover{
+  color:red;
+}
